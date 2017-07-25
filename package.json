@@ -1,0 +1,28 @@
+{
+  "name": "noseybot-for-slack",
+  "version": "1.0.0",
+  "description": "A slack bot that asks what you have been up to",
+  "main": "lib/noseybot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhison/noseybot.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "Tim Bhison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhison/noseybot/issues"
+  },
+  "homepage": "https://github.com/bhison/noseybot#readme",
+  "dependencies": {
+    "@slack/client": "^3.10.0",
+    "progress": "^2.0.0",
+    "slackbots": "^0.3.0",
+    "sqlite3": "^3.1.8"
+  }
+}
